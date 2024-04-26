@@ -2,7 +2,11 @@
 
 ## Preview Video
 
-[Watch the preview video here]([link_to_your_video](https://github.com/IamSudhir-Kumar/ecoyaan-internship/assets/112376748/a0f7874c-4d8b-45a0-bb4a-fd56dcd48053))
+
+
+https://github.com/IamSudhir-Kumar/ecoyaan-internship/assets/112376748/fe7e108b-274d-4c67-8944-3c9276d00792
+
+
 
 ## Frameworks and Tools Used
 
@@ -33,8 +37,8 @@ Follow these steps to run the project locally:
    ````
 5.Open your browser and visit http://localhost:5173 to view the application.
 
-#Acknowledgments
- <h5>Bento - UI Designs: Inspiration for the project design.</h5>h5>
+##Acknowledgments
+ <h5>Bento - UI Designs: Inspiration for the project design.</h5>
  <h5>React JS, GSAP, Tailwind CSS: Frameworks and tools used to build the project.</h5>
 
 
