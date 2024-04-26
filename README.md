@@ -21,7 +21,7 @@ Follow these steps to run the project locally:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/IamSudhir-Kumar/ecoyaan-internship.git/
+   git clone https://github.com/IamSudhir-Kumar/ecoyaan-internship/
    ````
 2.Navigate to the project directory 
  ```bash
@@ -37,9 +37,6 @@ Follow these steps to run the project locally:
    ````
 5.Open your browser and visit http://localhost:5173 to view the application.
 
-##Acknowledgments
- <h5>Bento - UI Designs: Inspiration for the project design.</h5>
- <h5>React JS, GSAP, Tailwind CSS: Frameworks and tools used to build the project.</h5>
 
 
 
