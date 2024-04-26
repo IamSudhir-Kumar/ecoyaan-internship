@@ -1,10 +1,6 @@
 import { useEffect } from "react";
 import { gsap } from "gsap";
 
-import { SiAuth0, SiTrustpilot } from "react-icons/si"
-import { GiImpactPoint } from "react-icons/gi";
-
-
 const AboutUs = () => {
   useEffect(() => {
     // Animation for grid loading
@@ -18,74 +14,68 @@ const AboutUs = () => {
   }, []);
 
   return (
-    <div className="m-7 mt-16 md:flex">
-      <div className="grid grid-cols-3 gap-6">
+    <div className="m-7 mt-16">
+      <div className="lg:grid sm:flex sm:justify-center sm:items-center  grid-cols-3 lg:gap-6">
         {/* About Company */}
-        <div className="col-start-1 col-end-3  bg-yellow-300 p-8 rounded-xl content-between text-section">
+        <div className="lg:col-start-1 lg:col-end-3 sm:col-start-1 sm:col-end-2  bg-yellow-300 p-8 rounded-xl content-between text-section">
           <h2 className="text-3xl font-semibold mb-4"> About Ecoyaan</h2>
           <p className="text-lg">
-          At Ecoyaan, we are more than just a platform. Our goal is to build a community of eco-conscious people who share a common vision and passion for a more sustainable world.
+            At Ecoyaan, we are more than just a platform. Our goal is to build a community of eco-conscious people who share a common vision and passion for a more sustainable world.
           </p>
           <p className="text-lg mb-2">
-          We recognize that sustainability is a journey (as the Sanskrit word “yaan” suggests). To keep you motivated on this journey, on our platform and our social media pages, you can find:
+            We recognize that sustainability is a journey (as the Sanskrit word “yaan” suggests). To keep you motivated on this journey, on our platform and our social media pages, you can find:
           </p>
           <ul className="text-lg text-left mb-6">
-            <li className="flex">
-              <img src="/d.png" className="h-5 w-5 mx-4"/>
-             <p>Tips and tricks to adopt a more eco-friendly and low-waste lifestyle</p>
+            <li className="flex items-center">
+              <img src="/d.png" className="h-5 w-5 mx-4" alt="icon" />
+              <p>Tips and tricks to adopt a more eco-friendly and low-waste lifestyle</p>
             </li>
-
-            <li className="flex">
-            <img src="/d.png" className="h-5 w-5 mx-4"/>
-            Videos, posts, and quizzes on climate change and sustainability
+            <li className="flex items-center">
+              <img src="/d.png" className="h-5 w-5 mx-4" alt="icon" />
+              <p>Videos, posts, and quizzes on climate change and sustainability</p>
             </li>
-
-            <li className="flex">
-            <img src="/d.png" className="h-5 w-5 mx-4"/>
-            Events and pledges that invite you to adopt a more sustainable lifestyle
+            <li className="flex items-center">
+              <img src="/d.png" className="h-5 w-5 mx-4" alt="icon" />
+              <p>Events and pledges that invite you to adopt a more sustainable lifestyle</p>
             </li>
           </ul>
-
           <h1 className="text-3xl font-semibold mb-4">
-          For businesses that care deeply about sustainability
+            For businesses that care deeply about sustainability
           </h1>
-
           <p className="text-lg">
-          Do you run a business that is committed to sustainability in every aspect of your work?
+            Do you run a business that is committed to sustainability in every aspect of your work?
           </p>
-
           <p className="text-lg">
-          Do you want to showcase your products to an incredible audience of eco-conscious consumers who care?
+            Do you want to showcase your products to an incredible audience of eco-conscious consumers who care?
           </p>
-
           <p className="text-lg">
-          If yes, then you are the perfect fit for our platform. Our community appreciates and supports businesses that are transparent, ethical, and innovative in their approach to sustainability. Contact us today:
+            If yes, then you are the perfect fit for our platform. Our community appreciates and supports businesses that are transparent, ethical, and innovative in their approach to sustainability. Contact us today:
           </p>
           <button className="bg-green-300 hover:bg-white transition duration-300 ease-in-out text-black font-semibold py-2 px-10 border rounded-full shadow text-base my-5">
-      Contact us
-      </button>
-
-      <img src="/e.png" />
+            Contact us
+          </button>
+          <img src="/e.png" alt="image" />
         </div>
+
 
         {/* Our Values */}
         <div className="col-span-1 bg-green-300 p-6 rounded-xl text-section">
           <h2 className="text-3xl font-semibold mb-4">Our Values</h2>
           <ul>
             <li className="text-lg mb-4">
-              <span className="flex text-2xl font-bold">   <img src="/a.gif" className="h-14 w-14"/> Trust:</span> We value the trust of our community. We strive to be transparent and honest in everything we do, from the content we share today to sourcing our products in the future.
+              <span className="flex text-2xl font-bold">   <img src="/a.gif" className="h-14 w-14" /> Trust:</span> We value the trust of our community. We strive to be transparent and honest in everything we do, from the content we share today to sourcing our products in the future.
             </li>
             <li className="text-lg mb-4">
-            <span className="flex text-2xl font-bold">   <img src="/b.gif" className="h-14 w-14"/> Impact:</span> We measure our success by our impact on the planet and our community. We aim to empower our sellers and customers to make responsible choices that benefit their well-being and the well-being of others.
+              <span className="flex text-2xl font-bold">   <img src="/b.gif" className="h-14 w-14" /> Impact:</span> We measure our success by our impact on the planet and our community. We aim to empower our sellers and customers to make responsible choices that benefit their well-being and the well-being of others.
             </li>
             <li className="text-lg mb-4">
-            <span className="flex text-2xl font-bold">   <img src="/c.gif" className="h-14 w-14"/> Authenticity :</span> We are genuine in our mission to promote sustainability and environmental awareness. An authentic community of eco-conscious people can inspire each other on the journey towards sustainability.
+              <span className="flex text-2xl font-bold">   <img src="/c.gif" className="h-14 w-14" /> Authenticity :</span> We are genuine in our mission to promote sustainability and environmental awareness. An authentic community of eco-conscious people can inspire each other on the journey towards sustainability.
             </li>
             <li className="text-lg mb-4">
               <span className="flex text-2xl font-bold">
-               <img src='/d.gif' className="h-14 w-14"/>
+                <img src='/d.gif' className="h-14 w-14" />
                 Fun & Engaging:
-                </span> Moving towards a sustainable lifestyle and the constant news around climate change can be stressful. We aim to inject fun and creativity into everything we do, from designing our products to providing services.
+              </span> Moving towards a sustainable lifestyle and the constant news around climate change can be stressful. We aim to inject fun and creativity into everything we do, from designing our products to providing services.
             </li>
           </ul>
         </div>
