@@ -1,6 +1,10 @@
 import { useEffect } from "react";
 import { gsap } from "gsap";
 
+import { SiAuth0, SiTrustpilot } from "react-icons/si"
+import { GiImpactPoint } from "react-icons/gi";
+
+
 const AboutUs = () => {
   useEffect(() => {
     // Animation for grid loading
@@ -14,85 +18,80 @@ const AboutUs = () => {
   }, []);
 
   return (
-    <div className="m-7">
-      <div className="grid grid-cols-3 grid-rows-2 gap-6">
+    <div className="m-7 mt-16 md:flex">
+      <div className="grid grid-cols-3 gap-6">
         {/* About Company */}
-        <div className="col-start-1 col-end-3 row-start-1 row-end-3 bg-yellow-300 p-8 rounded-xl text-section">
-          <h2 className="text-3xl font-semibold mb-4">About Company</h2>
+        <div className="col-start-1 col-end-3  bg-yellow-300 p-8 rounded-xl content-between text-section">
+          <h2 className="text-3xl font-semibold mb-4"> About Ecoyaan</h2>
           <p className="text-lg">
-            [Company Name] is a leading provider of [product/service] dedicated to providing our customers with the best [product/service] available. Since our founding, we have been committed to [mission of the company]. With a focus on innovation and customer satisfaction, we strive to exceed expectations in everything we do.
+          At Ecoyaan, we are more than just a platform. Our goal is to build a community of eco-conscious people who share a common vision and passion for a more sustainable world.
           </p>
+          <p className="text-lg mb-2">
+          We recognize that sustainability is a journey (as the Sanskrit word “yaan” suggests). To keep you motivated on this journey, on our platform and our social media pages, you can find:
+          </p>
+          <ul className="text-lg text-left mb-6">
+            <li className="flex">
+              <img src="/d.png" className="h-5 w-5 mx-4"/>
+             <p>Tips and tricks to adopt a more eco-friendly and low-waste lifestyle</p>
+            </li>
+
+            <li className="flex">
+            <img src="/d.png" className="h-5 w-5 mx-4"/>
+            Videos, posts, and quizzes on climate change and sustainability
+            </li>
+
+            <li className="flex">
+            <img src="/d.png" className="h-5 w-5 mx-4"/>
+            Events and pledges that invite you to adopt a more sustainable lifestyle
+            </li>
+          </ul>
+
+          <h1 className="text-3xl font-semibold mb-4">
+          For businesses that care deeply about sustainability
+          </h1>
+
+          <p className="text-lg">
+          Do you run a business that is committed to sustainability in every aspect of your work?
+          </p>
+
+          <p className="text-lg">
+          Do you want to showcase your products to an incredible audience of eco-conscious consumers who care?
+          </p>
+
+          <p className="text-lg">
+          If yes, then you are the perfect fit for our platform. Our community appreciates and supports businesses that are transparent, ethical, and innovative in their approach to sustainability. Contact us today:
+          </p>
+          <button className="bg-green-300 hover:bg-white transition duration-300 ease-in-out text-black font-semibold py-2 px-10 border rounded-full shadow text-base my-5">
+      Contact us
+      </button>
+
+      <img src="/e.png" />
         </div>
 
         {/* Our Values */}
-        <div className="col-start-1 col-end-2 row-start-2 row-end-3 bg-green-300 p-6 rounded-xl text-section">
+        <div className="col-span-1 bg-green-300 p-6 rounded-xl text-section">
           <h2 className="text-3xl font-semibold mb-4">Our Values</h2>
-          <ul className="list-disc list-inside">
-            <li className="text-lg flex items-center mb-2">
-              <svg
-                className="w-6 h-6 mr-2"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M9.032 2.113c.235-.52.908-.738 1.433-.496l7.188 3.25c.524.237.742.91.507 1.43L14.52 16.28c-.234.522-.907.74-1.432.498l-7.19-3.25c-.523-.236-.743-.91-.507-1.43l4.82-10.75zM12 11a1 1 0 11-2 0 1 1 0 012 0zm0-4a1 1 0 11-2 0 1 1 0 012 0z"
-                  clipRule="evenodd"
-                />
-              </svg>
-              Trust: We value the trust of our community. We strive to be transparent and honest in everything we do, from the content we share today to sourcing our products in the future.
+          <ul>
+            <li className="text-lg mb-4">
+              <span className="flex text-2xl font-bold">   <img src="/a.gif" className="h-14 w-14"/> Trust:</span> We value the trust of our community. We strive to be transparent and honest in everything we do, from the content we share today to sourcing our products in the future.
             </li>
-            <li className="text-lg flex items-center mb-2">
-              <svg
-                className="w-6 h-6 mr-2"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M9.032 2.113c.235-.52.908-.738 1.433-.496l7.188 3.25c.524.237.742.91.507 1.43L14.52 16.28c-.234.522-.907.74-1.432.498l-7.19-3.25c-.523-.236-.743-.91-.507-1.43l4.82-10.75zM12 11a1 1 0 11-2 0 1 1 0 012 0zm0-4a1 1 0 11-2 0 1 1 0 012 0z"
-                  clipRule="evenodd"
-                />
-              </svg>
-              Impact: We measure our success by our impact on the planet and our community. We aim to empower our sellers and customers to make responsible choices that benefit their well-being and the well-being of others.
+            <li className="text-lg mb-4">
+            <span className="flex text-2xl font-bold">   <img src="/b.gif" className="h-14 w-14"/> Impact:</span> We measure our success by our impact on the planet and our community. We aim to empower our sellers and customers to make responsible choices that benefit their well-being and the well-being of others.
             </li>
-            <li className="text-lg flex items-center mb-2">
-              <svg
-                className="w-6 h-6 mr-2"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M9.032 2.113c.235-.52.908-.738 1.433-.496l7.188 3.25c.524.237.742.91.507 1.43L14.52 16.28c-.234.522-.907.74-1.432.498l-7.19-3.25c-.523-.236-.743-.91-.507-1.43l4.82-10.75zM12 11a1 1 0 11-2 0 1 1 0 012 0zm0-4a1 1 0 11-2 0 1 1 0 012 0z"
-                  clipRule="evenodd"
-                />
-              </svg>
-              Authenticity: We are genuine in our mission to promote sustainability and environmental awareness. An authentic community of eco-conscious people can inspire each other on the journey towards sustainability.
+            <li className="text-lg mb-4">
+            <span className="flex text-2xl font-bold">   <img src="/c.gif" className="h-14 w-14"/> Authenticity :</span> We are genuine in our mission to promote sustainability and environmental awareness. An authentic community of eco-conscious people can inspire each other on the journey towards sustainability.
             </li>
-            <li className="text-lg flex items-center mb-2">
-              <svg
-                className="w-6 h-6 mr-2"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M9.032 2.113c.235-.52.908-.738 1.433-.496l7.188 3.25c.524.237.742.91.507 1.43L14.52 16.28c-.234.522-.907.74-1.432.498l-7.19-3.25c-.523-.236-.743-.91-.507-1.43l4.82-10.75zM12 11a1 1 0 11-2 0 1 1 0 012 0zm0-4a1 1 0 11-2 0 1 1 0 012 0z"
-                  clipRule="evenodd"
-                />
-              </svg>
-              Fun & Engaging: Moving towards a sustainable lifestyle and the constant news around climate change can be stressful. We aim to inject fun and creativity into everything we do, from designing our products to providing services.
+            <li className="text-lg mb-4">
+              <span className="flex text-2xl font-bold">
+               <img src='/d.gif' className="h-14 w-14"/>
+                Fun & Engaging:
+                </span> Moving towards a sustainable lifestyle and the constant news around climate change can be stressful. We aim to inject fun and creativity into everything we do, from designing our products to providing services.
             </li>
           </ul>
         </div>
 
         {/* Our Story */}
-        <div className="col-start-2 col-end-4 row-start-1 row-end-2 bg-[#9EB384] p-6 rounded-xl text-section">
+        <div className="col-span-3 bg-[#9EB384] p-6 rounded-xl text-section">
           <h2 className="text-3xl font-semibold mb-4">Our Story</h2>
           <p className="text-lg">
             We started Ecoyaan after watching an episode of “Our Planet II”,
@@ -109,7 +108,7 @@ const AboutUs = () => {
             We want to make it easy and convenient for people to access eco-friendly products
             and services, learn and share best practices, and support sustainability initiatives.
           </p>
-          <p>
+          <p className="text-lg">
             As founders, we are not perfect, but we are passionate. We believe that every small
             step matters. Join us and be a part of the Ecoyaan community — together, we’ll make
             a difference.
@@ -117,7 +116,7 @@ const AboutUs = () => {
         </div>
 
         {/* Meet the Team */}
-        <div className="col-start-2 col-end-4 row-start-2 row-end-3 bg-[#435334] p-6 rounded-xl text-section">
+        <div className="col-span-2 bg-[#435334] p-6 rounded-xl text-section">
           <h2 className="text-3xl font-semibold mb-4">Meet the Team</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <TeamMember name="John Doe" role="CEO" />
@@ -130,7 +129,7 @@ const AboutUs = () => {
         </div>
 
         {/* Testimonials */}
-        <div className="col-start-1 col-end-2 row-start-1 row-end-2 bg-[#FAF1E4] p-6 rounded-xl text-section">
+        <div className="col-span-1 row-span-2 bg-[#FAF1E4] p-6 rounded-xl text-section">
           <h2 className="text-3xl font-semibold mb-4">Testimonials</h2>
           <div className="grid grid-cols-1 gap-4">
             <Testimonial name="John Smith" />
@@ -140,7 +139,7 @@ const AboutUs = () => {
         </div>
 
         {/* Awards */}
-        <div className="col-start-2 col-end-3 row-start-2 row-end-3 bg-blue-400 p-6 rounded-xl text-section">
+        <div className="col-span-2 bg-blue-400 p-6 rounded-xl text-section">
           <h2 className="text-3xl font-semibold mb-4">Awards</h2>
           <ul className="list-disc list-inside">
             <li className="text-lg">Best Customer Service Award</li>

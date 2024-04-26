@@ -11,7 +11,7 @@ const Header = () => {
   }, []);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 px-3 py-3 flex items-center justify-between bg-[#436850] rounded-full">
+    <nav className="fixed top-0 left-0 right-0 z-50 px-3 py-3 flex items-center justify-between bg-[#436850] rounded-full mt-2">
       <Link to="/" className="font-bold text-3xl text-white hover:text-[#1cb95c]" id="logo">
         Ecoyaan
       </Link>

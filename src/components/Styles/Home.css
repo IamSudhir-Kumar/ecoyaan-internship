@@ -1,0 +1,213 @@
+/* styles.css */
+.grid {
+    display: grid;
+  }
+  
+  @media (min-width: 768px) {
+    .grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  .col-start-1 {
+    grid-column-start: 1;
+  }
+  
+  .col-end-1 {
+    grid-column-end: 1;
+  }
+  
+  .col-start-2 {
+    grid-column-start: 2;
+  }
+  
+  .col-end-2 {
+    grid-column-end: 2;
+  }
+  
+  .col-start-3 {
+    grid-column-start: 3;
+  }
+  
+  .col-end-3 {
+    grid-column-end: 3;
+  }
+  
+  .row-start-1 {
+    grid-row-start: 1;
+  }
+  
+  .row-end-1 {
+    grid-row-end: 1;
+  }
+  
+  .row-start-2 {
+    grid-row-start: 2;
+  }
+  
+  .row-end-2 {
+    grid-row-end: 2;
+  }
+  
+  .row-start-3 {
+    grid-row-start: 3;
+  }
+  
+  .row-end-3 {
+    grid-row-end: 3;
+  }
+  
+  .row-start-4 {
+    grid-row-start: 4;
+  }
+  
+  .row-end-4 {
+    grid-row-end: 4;
+  }
+  
+  .row-start-5 {
+    grid-row-start: 5;
+  }
+  
+  .row-end-5 {
+    grid-row-end: 5;
+  }
+  
+  .row-start-6 {
+    grid-row-start: 6;
+  }
+  
+  .row-end-6 {
+    grid-row-end: 6;
+  }
+  
+  .row-start-7 {
+    grid-row-start: 7;
+  }
+  
+  .row-end-7 {
+    grid-row-end: 7;
+  }
+  
+  .row-start-8 {
+    grid-row-start: 8;
+  }
+  
+  .row-end-8 {
+    grid-row-end: 8;
+  }
+  
+  .border {
+    border: 1px solid black;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .flex-col {
+    flex-direction: column;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .gap-6 > * + * {
+    margin-top: 1.5rem;
+  }
+  
+  .rounded-4xl {
+    border-radius: 2rem;
+  }
+  
+ 
+  
+  .px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .py-0 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .font-bold {
+    font-weight: bold;
+  }
+  
+  .text-2xl {
+    font-size: 1.5rem;
+  }
+  
+  .text-left {
+    text-align: left;
+  }
+  
+  .text-lg {
+    font-size: 1.125rem;
+  }
+  
+  .bg-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+  
+  .bg-cover {
+    background-size: cover;
+  }
+  
+  .text-black {
+    color: black;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+  
+  .text-white {
+    color: white;
+  }
+  
+
+  .h-80 {
+    height: 20rem;
+  }
+  
+
+  
+  .text-green-300 {
+    color: #48BB78;
+  }
+  
+  .border-black {
+    border-color: black;
+  }
+  
+  .h-15 {
+    height: 3.75rem;
+  }
+  
+  .w-15 {
+    width: 3.75rem;
+  }
+  
+  
