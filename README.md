@@ -19,8 +19,7 @@ https://github.com/IamSudhir-Kumar/ecoyaan-internship/assets/112376748/fe7e108b-
 Follow these steps to run the project locally:
 
 1. Clone the repository:
-
-   ```bash
+```bash
    git clone https://github.com/IamSudhir-Kumar/ecoyaan-internship/
    ````
 2.Navigate to the project directory 
